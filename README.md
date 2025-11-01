@@ -60,4 +60,4 @@ node sheets-update-complete.js
 
 ## SQL Output
 
-In addition to updating the Google Sheet, the script also generates and logs a SQL `INSERT` statement. This statement is formatted to insert the newly generated data into a MySQL table named `showcase_traffic_dashboard`. This can be useful for maintaining a database backup of your data or for integrating with other systems.
+In addition to updating the Google Sheet, the script also generates and logs a SQL `INSERT` statement. This statement is formatted to insert the newly generated data into a MySQL table named `showcase_traffic_dashboard`. This can be useful for maintaining a database backup of your data or for integrating with other systems or, as is the case with us, to use a MySQL database as datasource for Looker Studio.
